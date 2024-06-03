@@ -6,13 +6,6 @@
 #ifndef IPPL_MAXWELL_H
 #define IPPL_MAXWELL_H
 
-#include "Types/Vector.h"
-
-#include "Field/Field.h"
-
-#include "FieldLayout/FieldLayout.h"
-#include "Meshes/UniformCartesian.h"
-
 namespace ippl {
 
     template <typename EMField, typename SourceField>

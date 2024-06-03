@@ -8,6 +8,7 @@
 
 #include <initializer_list>
 
+#include "Kokkos_Macros.hpp"
 #include "Region/PRegion.h"
 
 namespace ippl {
@@ -64,7 +65,5 @@ namespace ippl {
         PRegion<T> regions_m[Dim];
     };
 }  // namespace ippl
-
-#include "Region/NDRegion.hpp"
 
 #endif

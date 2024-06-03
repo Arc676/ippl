@@ -31,7 +31,7 @@
 #include <iostream>
 
 #include "Utility/Inform.h"
-#include "Utility/IpplInfo.h"
+#include "Utility/PAssert.h"
 
 Timing* IpplTimings::instance = new Timing();
 std::stack<Timing*> IpplTimings::stashedInstance;

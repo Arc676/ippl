@@ -5,6 +5,7 @@
 #ifndef IPPL_PARTICLE_BC_H
 #define IPPL_PARTICLE_BC_H
 
+#include "Kokkos_Macros.hpp"
 #include "Region/NDRegion.h"
 
 namespace ippl {

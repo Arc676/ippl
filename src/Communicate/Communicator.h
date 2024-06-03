@@ -11,17 +11,13 @@
 #include "Communicate/Request.h"
 #include "Communicate/Status.h"
 
-////////////////////////////////////////////////
 // For message size check; see below
 #include <climits>
-#include <cstdlib>
 
 #include "Utility/TypeUtils.h"
 
 #include "Communicate/Archive.h"
 #include "Communicate/TagMaker.h"
-#include "Communicate/Tags.h"
-////////////////////////////////////////////////////
 
 namespace ippl {
     namespace mpi {
@@ -204,14 +200,5 @@ namespace ippl {
         };
     }  // namespace mpi
 }  // namespace ippl
-
-#include "Communicate/Collectives.hpp"
-#include "Communicate/PointToPoint.hpp"
-
-////////////////////////////////////
-
-#include "Communicate/Buffers.hpp"
-
-////////////////////////////////////
 
 #endif

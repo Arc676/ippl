@@ -49,6 +49,11 @@
 //   attributes: a radius rad (double), and a velocity vel (a 3D Vector).
 //
 
+#include "Ippl.h"
+
+#include "Communicate/Tags.h"
+#include "ParticleBase.h"
+
 namespace ippl {
 
     template <class PLayout, typename... IP>

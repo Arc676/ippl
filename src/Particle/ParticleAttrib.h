@@ -18,7 +18,6 @@
 
 #include "Expression/IpplExpressions.h"
 
-#include "Interpolation/CIC.h"
 #include "Particle/ParticleAttribBase.h"
 
 namespace ippl {
@@ -136,7 +135,5 @@ namespace ippl {
         view_type buf_m;
     };
 }  // namespace ippl
-
-#include "Particle/ParticleAttrib.hpp"
 
 #endif

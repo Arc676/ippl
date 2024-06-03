@@ -20,6 +20,8 @@
 //   exchanging particle data between ranks.
 //
 
+#include "Communicator.h"
+
 namespace ippl {
     namespace mpi {
 

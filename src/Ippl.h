@@ -5,12 +5,7 @@
 #ifndef IPPL_H
 #define IPPL_H
 
-#include <iostream>
-
-#include "Types/IpplTypes.h"
-
 #include "Utility/Inform.h"
-#include "Utility/ParallelDispatch.h"
 
 #include "Communicate/Communicator.h"
 #include "Communicate/Environment.h"
@@ -47,6 +42,5 @@ namespace ippl {
 }  // namespace ippl
 
 // FIMXE remove (only for backwards compatibility)
-#include "IpplCore.h"
 
 #endif

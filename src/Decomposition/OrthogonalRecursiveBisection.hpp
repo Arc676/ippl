@@ -1,4 +1,9 @@
+#include <numeric>
+
 #include "Utility/IpplTimings.h"
+#include "Utility/ParallelDispatch.h"
+
+#include "OrthogonalRecursiveBisection.h"
 
 namespace ippl {
 

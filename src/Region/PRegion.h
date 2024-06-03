@@ -17,6 +17,7 @@
 #ifndef IPPL_PREGION_H
 #define IPPL_PREGION_H
 
+#include "Kokkos_Macros.hpp"
 namespace ippl {
     /*!
      * @file PRegion.h
@@ -87,7 +88,5 @@ namespace ippl {
         T b_m;
     };
 }  // namespace ippl
-
-#include "PRegion.hpp"
 
 #endif

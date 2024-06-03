@@ -12,9 +12,13 @@
 //   at the moment.
 //
 
-#include "Utility/IpplException.h"
+#include "BcTypes.h"
 
-#include "Field/HaloCells.h"
+#include "Utility/ParallelDispatch.h"
+
+#include "Expression/IpplOperations.h"
+
+#include "Communicate/Tags.h"
 
 namespace ippl {
     namespace detail {

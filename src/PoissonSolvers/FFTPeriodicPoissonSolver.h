@@ -10,8 +10,6 @@
 
 #include <Kokkos_MathematicalConstants.hpp>
 
-#include "Types/ViewTypes.h"
-
 #include "FFT/FFT.h"
 #include "FieldLayout/FieldLayout.h"
 #include "Index/NDIndex.h"
@@ -99,5 +97,4 @@ namespace ippl {
     };
 }  // namespace ippl
 
-#include "PoissonSolvers/FFTPeriodicPoissonSolver.hpp"
 #endif

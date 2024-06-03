@@ -18,12 +18,9 @@ namespace ippl {
 
             template <typename view_type>
             void split(const NDIndex<Dim>& domain, view_type& view,
-                       const std::array<bool, Dim>& isParallel,
-                       int nSplits) const;
+                       const std::array<bool, Dim>& isParallel, int nSplits) const;
         };
     }  // namespace detail
 }  // namespace ippl
-
-#include "Partition/Partitioner.hpp"
 
 #endif

@@ -11,11 +11,7 @@
 #define IPPL_ORTHOGONAL_RECURSIVE_BISECTION_H
 
 #include "FieldLayout/FieldLayout.h"
-#include "Index/Index.h"
 #include "Index/NDIndex.h"
-#include "Particle/ParticleAttrib.h"
-#include "Particle/ParticleSpatialLayout.h"
-#include "Region/NDRegion.h"
 
 namespace ippl {
     /*
@@ -101,7 +97,5 @@ namespace ippl {
     };  // class
 
 }  // namespace ippl
-
-#include "Decomposition/OrthogonalRecursiveBisection.hpp"
 
 #endif  // IPPL_ORTHOGONAL_RECURSIVE_BISECTION_H

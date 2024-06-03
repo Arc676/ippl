@@ -10,6 +10,7 @@
 #include <list>
 
 #include "Utility/IpplInfo.h"
+#include "Utility/Timer.h"
 
 namespace ippl {
 

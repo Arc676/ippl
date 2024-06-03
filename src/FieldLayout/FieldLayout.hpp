@@ -5,16 +5,13 @@
 //   partitioning. The user may request that a particular dimension not be
 //   partitioned by flagging that axis as 'SERIAL' (instead of 'PARALLEL').
 //
-#include "Ippl.h"
-
 #include <cstdlib>
-#include <limits>
 
 #include "Utility/IpplException.h"
 #include "Utility/IpplTimings.h"
-#include "Utility/PAssert.h"
 
 #include "FieldLayout/FieldLayout.h"
+#include "Partition/Partitioner.h"
 
 namespace ippl {
 

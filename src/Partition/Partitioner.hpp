@@ -4,8 +4,11 @@
 //
 
 #include <algorithm>
-#include <numeric>
 #include <vector>
+
+#include "Utility/PAssert.h"
+
+#include "Partitioner.h"
 
 namespace ippl {
     namespace detail {
@@ -13,8 +16,7 @@ namespace ippl {
         template <unsigned Dim>
         template <typename view_type>
         void Partitioner<Dim>::split(const NDIndex<Dim>& domain, view_type& view,
-                                     const std::array<bool, Dim>& isParallel,
-                                     int nSplits) const {
+                                     const std::array<bool, Dim>& isParallel, int nSplits) const {
             using NDIndex_t = NDIndex<Dim>;
 
             // Recursively split the domain until we have generated all the domains.

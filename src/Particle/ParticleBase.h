@@ -51,7 +51,7 @@
 #ifndef IPPL_PARTICLE_BASE_H
 #define IPPL_PARTICLE_BASE_H
 
-#include <tuple>
+#include <mpi.h>
 #include <type_traits>
 #include <vector>
 
@@ -59,7 +59,8 @@
 
 #include "Utility/TypeUtils.h"
 
-#include "Particle/ParticleLayout.h"
+#include "Particle/ParticleAttrib.h"
+#include "Particle/ParticleBC.h"
 
 namespace ippl {
 
@@ -363,7 +364,5 @@ namespace ippl {
         hash_container_type keepIndex_m;
     };
 }  // namespace ippl
-
-#include "Particle/ParticleBase.hpp"
 
 #endif

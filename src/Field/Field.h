@@ -10,7 +10,7 @@
 #include "Field/BareField.h"
 #include "Field/BConds.h"
 
-#include "Meshes/UniformCartesian.h"
+#include "Meshes/Centering.h"
 
 namespace ippl {
 
@@ -87,9 +87,6 @@ namespace ippl {
         BConds_t bc_m;
     };
 }  // namespace ippl
-
-#include "Field/Field.hpp"
-#include "Field/FieldOperations.hpp"
 
 #endif
 

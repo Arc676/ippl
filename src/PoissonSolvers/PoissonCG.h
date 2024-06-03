@@ -6,6 +6,8 @@
 #ifndef IPPL_POISSON_CG_H
 #define IPPL_POISSON_CG_H
 
+#include "Expression/IpplOperations.h"
+
 #include "LaplaceHelpers.h"
 #include "LinearSolvers/PCG.h"
 #include "Poisson.h"

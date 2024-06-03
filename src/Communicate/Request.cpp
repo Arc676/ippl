@@ -4,6 +4,8 @@
 //
 #include "Communicate/Request.h"
 
+#include "Communicate/Status.h"
+
 namespace ippl {
     namespace mpi {
 

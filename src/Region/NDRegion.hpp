@@ -5,6 +5,8 @@
 //
 #include <iostream>
 
+#include "NDRegion.h"
+
 namespace ippl {
     template <typename T, unsigned Dim>
     template <class... Args>

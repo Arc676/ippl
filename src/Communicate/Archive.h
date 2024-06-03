@@ -102,6 +102,4 @@ namespace ippl {
     }  // namespace detail
 }  // namespace ippl
 
-#include "Archive.hpp"
-
 #endif

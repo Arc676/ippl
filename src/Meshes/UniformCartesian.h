@@ -5,7 +5,8 @@
 #ifndef IPPL_UNIFORM_CARTESIAN_H
 #define IPPL_UNIFORM_CARTESIAN_H
 
-#include "Meshes/CartesianCentering.h"
+#include "Index/NDIndex.h"
+#include "Meshes/Centering.h"
 #include "Meshes/Mesh.h"
 
 namespace ippl {
@@ -59,7 +60,5 @@ namespace ippl {
     };
 
 }  // namespace ippl
-
-#include "Meshes/UniformCartesian.hpp"
 
 #endif

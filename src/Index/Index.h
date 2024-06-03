@@ -258,6 +258,4 @@ namespace ippl {
     }
 }  // namespace ippl
 
-#include "Index/Index.hpp"
-
 #endif

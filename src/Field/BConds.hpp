@@ -3,6 +3,9 @@
 //   It calls the findBCNeighbors and apply in the
 //   respective BC classes to apply field BCs
 //
+
+#include "BConds.h"
+
 namespace ippl {
     template <typename Field, unsigned Dim>
     void BConds<Field, Dim>::write(std::ostream& os) const {

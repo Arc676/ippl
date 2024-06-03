@@ -14,10 +14,11 @@
 //   PRegion<T>(B)     --> make a PRegion on [0,B)
 //   PRegion<T>(A,B)   --> make a PRegion on [A,B)
 //
-#include <algorithm>
 #include <iostream>
 
 #include "Utility/PAssert.h"
+
+#include "PRegion.h"
 
 namespace ippl {
     template <typename T>

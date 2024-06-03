@@ -5,7 +5,10 @@
 #ifndef IPPL_EXPRESSIONS_H
 #define IPPL_EXPRESSIONS_H
 
+#include <cstddef>
 #include <type_traits>
+
+#include "Kokkos_Macros.hpp"
 
 namespace ippl {
     namespace detail {
@@ -96,7 +99,5 @@ namespace ippl {
 
     }  // namespace detail
 }  // namespace ippl
-
-#include "Expression/IpplOperations.h"
 
 #endif

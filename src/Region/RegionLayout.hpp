@@ -18,6 +18,10 @@
 //   so that if we must repartition the copy of the FieldLayout that
 //   is stored here, we will end up repartitioning all the registered Fields.
 //
+
+#include "Ippl.h"
+
+#include "RegionLayout.h"
 namespace ippl {
     namespace detail {
         template <typename T, unsigned Dim, class Mesh, class... Properties>

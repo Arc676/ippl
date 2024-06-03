@@ -28,6 +28,7 @@
 //        the templated class for use in other parts of the code.
 //
 
+#include "ParticleLayout.h"
 namespace ippl {
     namespace detail {
         template <typename T, unsigned Dim, typename... Properties>

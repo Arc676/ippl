@@ -525,8 +525,6 @@ struct CommonCartesianCenterings<3U, 6U, 2U> {
     typedef CartesianCentering<CCCEnums<3U, 6U, 2U>::allEdge, 3U, 6U> allEdge;
 };
 
-#include "Meshes/CartesianCentering.hpp"
-
 #endif  // CARTESIAN_CENTERING_H
 
 /***************************************************************************

@@ -19,13 +19,16 @@
 //   frequency of load balancing (N), or may supply a function to
 //   determine if load balancing should be done or not.
 //
+#include "Ippl.h"
+
 #include <memory>
-#include <numeric>
 #include <vector>
 
 #include "Utility/IpplTimings.h"
 
+#include "Communicate/Tags.h"
 #include "Communicate/Window.h"
+#include "ParticleSpatialLayout.h"
 
 namespace ippl {
 
@@ -132,7 +135,6 @@ namespace ippl {
         pc.internalDestroy(invalid, invalidCount);
         Kokkos::fence();
 
-
         IpplTimings::stopTimer(destroyTimer);
         static IpplTimings::TimerRef recvTimer = IpplTimings::getTimer("particleRecv");
         IpplTimings::startTimer(recvTimer);
@@ -215,7 +217,6 @@ namespace ippl {
                 }
             });
         Kokkos::fence();
-
     }
 
     template <typename T, unsigned Dim, class Mesh, typename... Properties>

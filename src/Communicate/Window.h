@@ -6,7 +6,11 @@
 #ifndef IPPL_MPI_WINDOW_H
 #define IPPL_MPI_WINDOW_H
 
-#include <iterator>
+#include <mpi.h>
+#include <type_traits>
+
+#include "Communicate/Communicator.h"
+#include "Request.h"
 
 namespace ippl {
     namespace mpi {
@@ -103,7 +107,5 @@ namespace ippl {
         }  // namespace rma
     }      // namespace mpi
 }  // namespace ippl
-
-#include "Communicate/Window.hpp"
 
 #endif

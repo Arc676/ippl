@@ -7,6 +7,11 @@
 #ifndef CIC_INTERPOLATION_H
 #define CIC_INTERPOLATION_H
 
+#include <cstddef>
+
+#include "Types/Vector.h"
+
+#include "Kokkos_Macros.hpp"
 namespace ippl {
     namespace detail {
         /*!
@@ -121,7 +126,5 @@ namespace ippl {
             const Vector<IndexType, View::rank>& args);
     }  // namespace detail
 }  // namespace ippl
-
-#include "Interpolation/CIC.hpp"
 
 #endif

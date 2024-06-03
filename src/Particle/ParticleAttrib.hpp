@@ -15,9 +15,10 @@
 //
 #include "Ippl.h"
 
-#include "Communicate/DataTypes.h"
-
 #include "Utility/IpplTimings.h"
+
+#include "Interpolation/CIC.h"
+#include "ParticleAttrib.h"
 
 namespace ippl {
 

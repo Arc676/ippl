@@ -23,8 +23,7 @@
  *
  ***************************************************************************/
 
-// include files
-#include "Meshes/CartesianCentering.h"
+#include "CartesianCentering.h"
 
 template <CenteringEnum* CE, unsigned Dim, unsigned NComponents>
 std::string CartesianCentering<CE, Dim, NComponents>::CenteringName =

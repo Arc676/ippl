@@ -14,15 +14,12 @@
 #include "Types/Vector.h"
 
 #include "Utility/IpplException.h"
-#include "Utility/IpplTimings.h"
 
 #include "Field/Field.h"
 
-#include "Communicate/Archive.h"
 #include "FFT/FFT.h"
 #include "Field/HaloCells.h"
 #include "FieldLayout/FieldLayout.h"
-#include "Meshes/UniformCartesian.h"
 #include "Poisson.h"
 
 namespace ippl {
@@ -90,7 +87,7 @@ namespace ippl {
             HOCKNEY    = 0b01,
             VICO       = 0b10,
             BIHARMONIC = 0b11,
-            DCT_VICO    = 0b100
+            DCT_VICO   = 0b100
         };
 
         // define a type for a 3 dimensional field (e.g. charge density field)
@@ -277,5 +274,4 @@ namespace ippl {
     };
 }  // namespace ippl
 
-#include "PoissonSolvers/FFTOpenPoissonSolver.hpp"
 #endif

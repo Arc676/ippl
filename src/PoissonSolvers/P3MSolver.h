@@ -19,7 +19,6 @@
 
 #include "FFT/FFT.h"
 #include "FieldLayout/FieldLayout.h"
-#include "Meshes/UniformCartesian.h"
 #include "Poisson.h"
 
 namespace ippl {
@@ -129,5 +128,4 @@ namespace ippl {
     };
 }  // namespace ippl
 
-#include "PoissonSolvers/P3MSolver.hpp"
 #endif

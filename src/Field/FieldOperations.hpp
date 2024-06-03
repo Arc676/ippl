@@ -3,6 +3,10 @@
 //   Differential operators for fields
 //
 
+#include "Expression/IpplOperations.h"
+
+#include "Field/BConds.h"
+
 namespace ippl {
     /*!
      * User interface of gradient

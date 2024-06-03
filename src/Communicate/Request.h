@@ -5,7 +5,7 @@
 #ifndef IPPL_MPI_REQUEST_H
 #define IPPL_MPI_REQUEST_H
 
-#include "Communicate/Status.h"
+#include <mpi.h>
 
 namespace ippl {
     namespace mpi {

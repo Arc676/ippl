@@ -9,7 +9,6 @@
 
 // For message size check; see below
 #include <climits>
-#include <cstdlib>
 
 #include "Types/Variant.h"
 
@@ -17,7 +16,6 @@
 
 #include "Communicate/Archive.h"
 #include "Communicate/TagMaker.h"
-#include "Communicate/Tags.h"
 
 namespace ippl {
     /*!
@@ -166,7 +164,5 @@ namespace ippl {
         MPI_Isend(ar.getBuffer(), ar.getSize(), MPI_BYTE, dest, tag, comm_m, &request);
     }
 }  // namespace ippl
-
-#include "Communicate/Buffers.hpp"
 
 #endif

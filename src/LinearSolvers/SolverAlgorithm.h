@@ -6,8 +6,6 @@
 #ifndef IPPL_SOLVER_ALGORITHM_H
 #define IPPL_SOLVER_ALGORITHM_H
 
-#include <functional>
-
 #include "Utility/ParameterList.h"
 
 namespace ippl {

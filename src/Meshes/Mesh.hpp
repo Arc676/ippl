@@ -5,6 +5,9 @@
 //   the mesh and can be notified if the mesh changes (e.g., it is rescaled
 //   or restructured entirely).
 //
+
+#include "Mesh.h"
+
 namespace ippl {
     template <typename T, unsigned Dim>
     typename Mesh<T, Dim>::vector_type Mesh<T, Dim>::getOrigin() const {

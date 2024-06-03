@@ -20,8 +20,6 @@
 //   exchanging particle data between ranks.
 //
 
-#include "Ippl.h"
-
 #include "Communicator.h"
 
 namespace ippl {

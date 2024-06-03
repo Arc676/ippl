@@ -6,6 +6,7 @@
 #define IPPL_Vector_H
 
 #include <initializer_list>
+#include <vector>
 
 #include "Expression/IpplExpressions.h"
 
@@ -41,11 +42,10 @@ namespace ippl {
 
         KOKKOS_FUNCTION
         Vector(const T& val);
-        
-        
+
         Vector(const std::array<T, Dim>& a);
 
-	    Vector(const std::array<std::vector<T>, Dim>& a);
+        Vector(const std::array<std::vector<T>, Dim>& a);
 
         /*!
          * @param list of values
@@ -98,17 +98,15 @@ namespace ippl {
 
         KOKKOS_INLINE_FUNCTION T dot(const Vector<T, Dim>& rhs) const;
 
-    //Needs to be public to be a standard-layout type
-    //private:
+        // Needs to be public to be a standard-layout type
+        // private:
         T data_m[Dim];
     };
-    
-    template<typename T, unsigned Dim>
+
+    template <typename T, unsigned Dim>
     KOKKOS_INLINE_FUNCTION Vector<T, Dim> min(const Vector<T, Dim>& a, const Vector<T, Dim>& b);
-    template<typename T, unsigned Dim>
+    template <typename T, unsigned Dim>
     KOKKOS_INLINE_FUNCTION Vector<T, Dim> max(const Vector<T, Dim>& a, const Vector<T, Dim>& b);
 }  // namespace ippl
-
-#include "Vector.hpp"
 
 #endif

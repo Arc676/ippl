@@ -22,7 +22,6 @@
 #include <memory>
 #include <type_traits>
 
-#include "Utility/IpplException.h"
 #include "Utility/ParameterList.h"
 
 #include "Field/Field.h"
@@ -311,8 +310,6 @@ namespace ippl {
         void transform(TransformDirection direction, Field& f);
     };
 }  // namespace ippl
-
-#include "FFT/FFT.hpp"
 
 #endif  // IPPL_FFT_FFT_H
 

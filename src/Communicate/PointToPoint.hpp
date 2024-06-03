@@ -1,3 +1,5 @@
+#include "Communicator.h"
+
 namespace ippl {
     namespace mpi {
 

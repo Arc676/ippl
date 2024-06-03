@@ -25,7 +25,7 @@
 #include "Types/IpplTypes.h"
 
 #include "FieldLayout/FieldLayout.h"
-#include "Particle/ParticleBase.h"
+#include "Meshes/UniformCartesian.h"
 #include "Particle/ParticleLayout.h"
 #include "Region/RegionLayout.h"
 
@@ -118,7 +118,5 @@ namespace ippl {
         size_t numberOfSends(int rank, const locate_type& ranks);
     };
 }  // namespace ippl
-
-#include "Particle/ParticleSpatialLayout.hpp"
 
 #endif

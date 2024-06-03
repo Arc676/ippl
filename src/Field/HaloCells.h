@@ -5,14 +5,11 @@
 #ifndef IPPL_HALO_CELLS_H
 #define IPPL_HALO_CELLS_H
 
-#include <array>
-
 #include "Types/IpplTypes.h"
 #include "Types/ViewTypes.h"
 
 #include "Communicate/Archive.h"
 #include "FieldLayout/FieldLayout.h"
-#include "Index/NDIndex.h"
 
 namespace ippl {
     namespace detail {
@@ -142,7 +139,5 @@ namespace ippl {
         };
     }  // namespace detail
 }  // namespace ippl
-
-#include "Field/HaloCells.hpp"
 
 #endif

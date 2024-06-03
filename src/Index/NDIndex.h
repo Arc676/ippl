@@ -92,6 +92,4 @@ namespace ippl {
     };
 }  // namespace ippl
 
-#include "Index/NDIndex.hpp"
-
 #endif

@@ -31,6 +31,8 @@
 //
 #include "Utility/PAssert.h"
 
+#include "Index.h"
+
 namespace ippl {
 
     KOKKOS_INLINE_FUNCTION Index::Index()

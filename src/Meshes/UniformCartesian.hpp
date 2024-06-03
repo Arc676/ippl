@@ -2,11 +2,10 @@
 // Class UniformCartesian
 //   UniformCartesian class - represents uniform-spacing cartesian meshes.
 //
-#include "Utility/IpplInfo.h"
 #include "Utility/PAssert.h"
 
-#include "Field/BareField.h"
-#include "Field/Field.h"
+#include "Index/NDIndex.h"
+#include "UniformCartesian.h"
 
 namespace ippl {
 

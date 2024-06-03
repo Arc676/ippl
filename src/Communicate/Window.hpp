@@ -3,7 +3,7 @@
 //   Defines an interface to perform one-sided communication.
 //   The term RMA stands for remote memory accesss.
 //
-#include "Utility/IpplException.h"
+#include "Window.h"
 
 namespace ippl {
     namespace mpi {

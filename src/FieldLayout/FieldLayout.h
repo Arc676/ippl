@@ -17,7 +17,6 @@
 
 #include "Communicate/Communicator.h"
 #include "Index/NDIndex.h"
-#include "Partition/Partitioner.h"
 
 namespace ippl {
 
@@ -377,7 +376,5 @@ namespace ippl {
         return out;
     }
 }  // namespace ippl
-
-#include "FieldLayout/FieldLayout.hpp"
 
 #endif

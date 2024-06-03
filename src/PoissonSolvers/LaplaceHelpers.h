@@ -4,6 +4,15 @@
 
 #ifndef IPPL_LAPLACE_HELPERS_H
 #define IPPL_LAPLACE_HELPERS_H
+
+#include <tuple>
+
+#include "Expression/IpplExpressions.h"
+
+#include "Field/BConds.h"
+
+#include "Kokkos_Macros.hpp"
+
 namespace ippl {
     namespace detail {
         // Implements the poisson matrix acting on a d dimensional field

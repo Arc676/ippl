@@ -24,14 +24,12 @@
 #ifndef IPPL_TIMINGS_H
 #define IPPL_TIMINGS_H
 
-#include <exception>
 #include <limits>
 #include <map>
 #include <stack>
 #include <string>
 #include <vector>
 
-#include "Utility/PAssert.h"
 #include "Utility/Timer.h"
 #include "Utility/my_auto_ptr.h"
 

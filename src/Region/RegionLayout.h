@@ -27,6 +27,7 @@
 
 #include "Utility/TypeUtils.h"
 
+#include "FieldLayout/FieldLayout.h"
 #include "Region/NDRegion.h"
 
 namespace ippl {
@@ -92,7 +93,5 @@ namespace ippl {
 
     }  // namespace detail
 }  // namespace ippl
-
-#include "Region/RegionLayout.hpp"
 
 #endif

@@ -3,6 +3,8 @@
 //   Norms and a scalar product for fields
 //
 
+#include "Utility/ParallelDispatch.h"
+
 namespace ippl {
     /*!
      * Computes the inner product of two fields

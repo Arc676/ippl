@@ -5,6 +5,8 @@
 //
 #include <iostream>
 
+#include "NDIndex.h"
+
 namespace ippl {
     template <unsigned Dim>
     template <class... Args>

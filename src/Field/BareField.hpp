@@ -2,18 +2,17 @@
 // Class BareField
 //   A BareField consists of multple LFields and represents a field.
 //
-#include "Ippl.h"
 
 #include <Kokkos_ReductionIdentity.hpp>
 #include <cstdlib>
 #include <limits>
-#include <map>
 #include <utility>
 
-#include "Communicate/DataTypes.h"
-
 #include "Utility/Inform.h"
-#include "Utility/IpplInfo.h"
+#include "Utility/ViewUtils.h"
+
+#include "BareField.h"
+
 namespace Kokkos {
     template <typename T, unsigned Dim>
     struct reduction_identity<ippl::Vector<T, Dim>> {
@@ -37,7 +36,8 @@ namespace KokkosCorrection {
     struct Max : Kokkos::Max<Scalar, Space> {
         using Super      = Kokkos::Max<Scalar, Space>;
         using value_type = typename Super::value_type;
-        KOKKOS_INLINE_FUNCTION Max(value_type& vref) : Super(vref){}
+        KOKKOS_INLINE_FUNCTION Max(value_type& vref)
+            : Super(vref) {}
         KOKKOS_INLINE_FUNCTION void join(value_type& dest, const value_type& src) const {
             using ippl::max;
             using Kokkos::max;
@@ -48,7 +48,8 @@ namespace KokkosCorrection {
     struct Min : Kokkos::Min<Scalar, Space> {
         using Super      = Kokkos::Min<Scalar, Space>;
         using value_type = typename Super::value_type;
-        KOKKOS_INLINE_FUNCTION Min(value_type& vref) : Super(vref){}
+        KOKKOS_INLINE_FUNCTION Min(value_type& vref)
+            : Super(vref) {}
         KOKKOS_INLINE_FUNCTION void join(value_type& dest, const value_type& src) const {
             using ippl::min;
             using Kokkos::min;
@@ -59,7 +60,8 @@ namespace KokkosCorrection {
     struct Sum : Kokkos::Sum<Scalar, Space> {
         using Super      = Kokkos::Sum<Scalar, Space>;
         using value_type = typename Super::value_type;
-        KOKKOS_INLINE_FUNCTION Sum(value_type& vref) : Super(vref){}
+        KOKKOS_INLINE_FUNCTION Sum(value_type& vref)
+            : Super(vref) {}
         KOKKOS_INLINE_FUNCTION void join(value_type& dest, const value_type& src) const {
             dest += src;
         }
@@ -68,7 +70,8 @@ namespace KokkosCorrection {
     struct Prod : Kokkos::Prod<Scalar, Space> {
         using Super      = Kokkos::Prod<Scalar, Space>;
         using value_type = typename Super::value_type;
-        KOKKOS_INLINE_FUNCTION Prod(value_type& vref) : Super(vref){}
+        KOKKOS_INLINE_FUNCTION Prod(value_type& vref)
+            : Super(vref) {}
         KOKKOS_INLINE_FUNCTION void join(value_type& dest, const value_type& src) const {
             dest *= src;
         }

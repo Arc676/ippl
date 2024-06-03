@@ -5,6 +5,13 @@
 //
 //
 
+#include "Ippl.h"
+
+#include "Utility/IpplTimings.h"
+
+#include "Communicate/Tags.h"
+#include "FFTOpenPoissonSolver.h"
+
 // Communication specific functions (pack and unpack).
 template <typename Tb, typename Tf>
 void pack(const ippl::NDIndex<3> intersect, Kokkos::View<Tf***>& view,

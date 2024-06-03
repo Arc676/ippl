@@ -1,8 +1,6 @@
 //
 // Class Communicate
 //
-#include "Ippl.h"
-
 #include "Communicate.h"
 
 namespace ippl {

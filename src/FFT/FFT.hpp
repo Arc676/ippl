@@ -20,11 +20,11 @@
    Implementations for FFT constructor/destructor and transforms
 */
 
-#include "Utility/IpplTimings.h"
+#include "Ippl.h"
 
-#include "Field/BareField.h"
+#include "Utility/ViewUtils.h"
 
-#include "FieldLayout/FieldLayout.h"
+#include "FFT.h"
 
 namespace ippl {
 

@@ -54,6 +54,4 @@ namespace ippl {
     };
 }  // namespace ippl
 
-#include "Meshes/Mesh.hpp"
-
 #endif

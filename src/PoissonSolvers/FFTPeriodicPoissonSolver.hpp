@@ -5,6 +5,8 @@
 //
 //
 
+#include "FFTPeriodicPoissonSolver.h"
+
 namespace ippl {
 
     template <typename FieldLHS, typename FieldRHS>
@@ -46,7 +48,7 @@ namespace ippl {
         }
 
         fft_mp = std::make_shared<FFT_t>(layout_r, *layoutComplex_mp, this->params_m);
-        fft_mp->warmup(*this->rhs_mp, fieldComplex_m); // warmup the FFT object
+        fft_mp->warmup(*this->rhs_mp, fieldComplex_m);  // warmup the FFT object
     }
 
     template <typename FieldLHS, typename FieldRHS>

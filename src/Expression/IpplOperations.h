@@ -5,6 +5,8 @@
 #ifndef IPPL_OPERATIONS_H
 #define IPPL_OPERATIONS_H
 
+#include "IpplExpressions.h"
+
 #include <Kokkos_MathematicalFunctions.hpp>
 #include <tuple>
 

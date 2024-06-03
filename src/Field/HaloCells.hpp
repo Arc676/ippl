@@ -3,12 +3,15 @@
 //   The guard / ghost cells of BareField.
 //
 
-#include <memory>
+#include "Ippl.h"
+
 #include <vector>
 
-#include "Utility/IpplException.h"
+#include "Utility/ParallelDispatch.h"
 
 #include "Communicate/Communicator.h"
+#include "Communicate/Tags.h"
+#include "Field/HaloCells.h"
 
 namespace ippl {
     namespace detail {
