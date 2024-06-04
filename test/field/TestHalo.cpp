@@ -4,7 +4,8 @@
 
 #include <array>
 #include <iostream>
-#include <typeinfo>
+
+#include "Core/Fields.h"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

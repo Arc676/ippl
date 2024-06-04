@@ -15,7 +15,8 @@
 
 #include <array>
 #include <iostream>
-#include <typeinfo>
+
+#include "Core/Fields.h"
 
 KOKKOS_INLINE_FUNCTION double gaussian(double x, double y, double z, double sigma = 1.0,
                                        double mu = 0.5) {

@@ -5,15 +5,7 @@
 #include <iostream>
 #include <sstream>
 
-#include "Types/Vector.hpp"
-
-#include "Expression/IpplOperations.h"
-
-#include "Communicate/Collectives.hpp"
 #include "Core/Fields.h"
-#include "Index/Index.hpp"
-#include "Meshes/Mesh.hpp"
-#include "Meshes/UniformCartesian.hpp"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

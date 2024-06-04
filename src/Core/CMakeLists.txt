@@ -1,14 +1,19 @@
+set (_SRCS
+    )
+
 set (_HDRS
     Fields.h
     )
 
 include_DIRECTORIES (
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/..
     )
 
+add_ippl_sources (${_SRCS})
 add_ippl_headers (${_HDRS})
 
-install (FILES ${_HDRS} DESTINATION include/Field)
+install (FILES ${_HDRS} DESTINATION include/Core)
 
 # vi: set et ts=4 sw=4 sts=4:
 
