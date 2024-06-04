@@ -4,6 +4,9 @@
 //   respective BC classes to apply field BCs
 //
 
+#ifndef IPPL_FIELD_BC_HPP
+#define IPPL_FIELD_BC_HPP
+
 #include "BConds.h"
 
 namespace ippl {
@@ -47,3 +50,5 @@ namespace ippl {
         return false;
     }
 }  // namespace ippl
+
+#endif

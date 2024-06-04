@@ -1,4 +1,7 @@
+#include "DataTypes.h"
+
 #include "Communicator.h"
+#include "Operations.h"
 
 namespace ippl {
     namespace mpi {

@@ -29,6 +29,7 @@
 //
 
 #include "ParticleLayout.h"
+
 namespace ippl {
     namespace detail {
         template <typename T, unsigned Dim, typename... Properties>

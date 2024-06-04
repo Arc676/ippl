@@ -16,7 +16,23 @@
 
 #include <array>
 #include <iostream>
-#include <typeinfo>
+
+#include "Field/BcTypes.hpp"
+
+#include "Types/Vector.hpp"
+
+#include "Expression/IpplOperations.h"
+
+#include "Communicate/Collectives.hpp"
+#include "Field/BareField.hpp"
+#include "Field/Field.hpp"
+#include "Field/FieldOperations.hpp"
+#include "Field/HaloCells.hpp"
+#include "FieldLayout/FieldLayout.hpp"
+#include "Index/Index.hpp"
+#include "Index/NDIndex.hpp"
+#include "Meshes/Mesh.hpp"
+#include "Meshes/UniformCartesian.hpp"
 
 KOKKOS_INLINE_FUNCTION double gaussian(double x, double y, double z, double sigma = 1.0,
                                        double mu = 0.5) {

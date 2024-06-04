@@ -11,7 +11,7 @@
 #include "Utility/IpplTimings.h"
 
 #include "FieldLayout/FieldLayout.h"
-#include "Partition/Partitioner.h"
+#include "Partition/Partitioner.hpp"
 
 namespace ippl {
 

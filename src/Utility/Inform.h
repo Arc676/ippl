@@ -31,7 +31,6 @@
  *      argument to the constructor may also be set to the node to print on.
  */
 
-#include <iomanip>
 #include <iostream>
 #include <sstream>
 

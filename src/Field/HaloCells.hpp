@@ -9,6 +9,7 @@
 
 #include "Utility/ParallelDispatch.h"
 
+#include "Communicate/Buffers.hpp"
 #include "Communicate/Communicator.h"
 #include "Communicate/Tags.h"
 #include "Field/HaloCells.h"

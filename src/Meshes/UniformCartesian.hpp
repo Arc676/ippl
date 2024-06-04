@@ -4,7 +4,7 @@
 //
 #include "Utility/PAssert.h"
 
-#include "Index/NDIndex.h"
+#include "Index/NDIndex.hpp"
 #include "UniformCartesian.h"
 
 namespace ippl {

@@ -8,7 +8,7 @@
 #include "Types/IpplTypes.h"
 #include "Types/ViewTypes.h"
 
-#include "Communicate/Archive.h"
+#include "Communicate/Archive.hpp"
 #include "FieldLayout/FieldLayout.h"
 
 namespace ippl {

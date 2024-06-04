@@ -17,7 +17,8 @@
 
 #include "Utility/IpplTimings.h"
 
-#include "Interpolation/CIC.h"
+#include "FieldLayout/FieldLayout.hpp"
+#include "Interpolation/CIC.hpp"
 #include "ParticleAttrib.h"
 
 namespace ippl {

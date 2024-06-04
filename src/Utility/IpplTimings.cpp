@@ -33,6 +33,8 @@
 #include "Utility/Inform.h"
 #include "Utility/PAssert.h"
 
+#include "Communicate/Collectives.hpp"
+
 Timing* IpplTimings::instance = new Timing();
 std::stack<Timing*> IpplTimings::stashedInstance;
 

@@ -5,7 +5,7 @@
 
 #include "Expression/IpplOperations.h"
 
-#include "Field/BConds.h"
+#include "Field/BConds.hpp"
 
 namespace ippl {
     /*!

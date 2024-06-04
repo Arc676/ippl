@@ -3,6 +3,10 @@
 //   This is a simple wrapper around Index that just keeps track of
 //   N of them and passes along requests for intersect, etc.
 //
+
+#ifndef IPPL_NDINDEX_HPP
+#define IPPL_NDINDEX_HPP
+
 #include <iostream>
 
 #include "NDIndex.h"
@@ -214,3 +218,5 @@ namespace ippl {
         return !(nd1 == nd2);
     }
 }  // namespace ippl
+
+#endif

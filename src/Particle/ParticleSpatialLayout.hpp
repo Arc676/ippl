@@ -27,7 +27,7 @@
 #include "Utility/IpplTimings.h"
 
 #include "Communicate/Tags.h"
-#include "Communicate/Window.h"
+#include "Communicate/Window.hpp"
 #include "ParticleSpatialLayout.h"
 
 namespace ippl {
