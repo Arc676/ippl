@@ -1,10 +1,8 @@
 #include "Ippl.h"
 
 #include <iostream>
-#include <list>
 
 #include "Communicate/Serializable.h"
-#include "Communicate/Wait.h"
 #include "Communicate/Window.h"
 
 int main(int argc, char* argv[]) {

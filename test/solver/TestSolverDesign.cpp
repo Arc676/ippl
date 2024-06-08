@@ -1,10 +1,11 @@
 // Example program to demonstrate solver design
 #include "Ippl.h"
 
-#include <iostream>
 #include <string>
-#include <typeinfo>
 
+#include "Core/Fields.h"
+#include "Index/Index.hpp"
+#include "Meshes/UniformCartesian.hpp"
 #include "PoissonSolvers/Poisson.h"
 
 constexpr unsigned int dim = 3;

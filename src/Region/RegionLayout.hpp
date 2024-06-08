@@ -21,7 +21,10 @@
 
 #include "Ippl.h"
 
+#include "Index/Index.hpp"
+#include "PRegion.hpp"
 #include "RegionLayout.h"
+
 namespace ippl {
     namespace detail {
         template <typename T, unsigned Dim, class Mesh, class... Properties>

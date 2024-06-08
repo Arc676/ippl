@@ -4,6 +4,9 @@
 //
 // #include "Utility/PAssert.h"
 
+#ifndef VECTOR_HPP
+#define VECTOR_HPP
+
 #include <iomanip>
 #include <iostream>
 
@@ -225,10 +228,4 @@ namespace ippl {
     }
 }  // namespace ippl
 
-// vi: set et ts=4 sw=4 sts=4:
-// Local Variables:
-// mode:c
-// c-basic-offset: 4
-// indent-tabs-mode: nil
-// require-final-newline: nil
-// End:
+#endif

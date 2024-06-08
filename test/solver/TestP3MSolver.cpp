@@ -16,9 +16,12 @@
 
 #include "Ippl.h"
 
-#include <iostream>
+#include "Types/Vector.hpp"
 
-#include "PoissonSolvers/P3MSolver.h"
+#include "Field/BareFieldOperations.hpp"
+#include "Index/Index.hpp"
+#include "Meshes/UniformCartesian.hpp"
+#include "PoissonSolvers/P3MSolver.hpp"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

@@ -11,7 +11,14 @@
 #include <string>
 #include <vector>
 
+#include "Types/Vector.hpp"
+
 #include "Utility/IpplTimings.h"
+
+#include "Expression/IpplOperations.h"
+
+#include "Particle/ParticleBase.hpp"
+#include "Particle/ParticleSpatialLayout.h"
 
 // dimension of our positions
 constexpr unsigned Dim = 3;

@@ -1,5 +1,8 @@
 #include "Ippl.h"
 
+#include "Region/NDRegion.hpp"
+#include "Region/PRegion.hpp"
+
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);
     {

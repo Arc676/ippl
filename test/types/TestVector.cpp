@@ -1,6 +1,8 @@
 #include "Ippl.h"
 
-#include <typeinfo>
+#include "Types/Vector.hpp"
+
+#include "Expression/IpplOperations.h"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

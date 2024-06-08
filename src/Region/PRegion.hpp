@@ -14,6 +14,10 @@
 //   PRegion<T>(B)     --> make a PRegion on [0,B)
 //   PRegion<T>(A,B)   --> make a PRegion on [A,B)
 //
+
+#ifndef PREGION_HPP
+#define PREGION_HPP
+
 #include <iostream>
 
 #include "Utility/PAssert.h"
@@ -107,3 +111,5 @@ namespace ippl {
         return out;
     }
 }  // namespace ippl
+
+#endif

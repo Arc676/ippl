@@ -9,9 +9,16 @@
 
 #include "Ippl.h"
 
+#include "Types/Vector.hpp"
+
 #include "Utility/IpplTimings.h"
 
-#include "PoissonSolvers/FFTOpenPoissonSolver.h"
+#include "Expression/IpplOperations.h"
+
+#include "Field/BareFieldOperations.hpp"
+#include "Index/Index.hpp"
+#include "Meshes/UniformCartesian.hpp"
+#include "PoissonSolvers/FFTOpenPoissonSolver.hpp"
 
 using Mesh_t        = ippl::UniformCartesian<double, 3>;
 using Centering_t   = Mesh_t::DefaultCentering;

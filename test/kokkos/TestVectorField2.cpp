@@ -1,8 +1,11 @@
 #include <Kokkos_Core.hpp>
 #include "Ippl.h"
 
-#include <initializer_list>
 #include <iostream>
+
+#include "Types/Vector.hpp"
+
+#include "Expression/IpplOperations.h"
 
 int main(int argc, char* argv[]) {
     Kokkos::initialize(argc, argv);

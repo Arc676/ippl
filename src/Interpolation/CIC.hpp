@@ -5,6 +5,9 @@
 //   these should be moved into structs.
 //
 
+#ifndef CIC_HPP
+#define CIC_HPP
+
 #include "CIC.h"
 #include "Kokkos_Atomic.hpp"
 
@@ -79,3 +82,5 @@ namespace ippl {
         }
     }  // namespace detail
 }  // namespace ippl
+
+#endif

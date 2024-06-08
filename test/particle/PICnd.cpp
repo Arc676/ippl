@@ -17,11 +17,16 @@
 #include <Kokkos_MathematicalFunctions.hpp>
 #include <iostream>
 #include <random>
-#include <set>
 #include <string>
 #include <vector>
 
 #include "Utility/IpplTimings.h"
+
+#include "Core/Fields.h"
+#include "Decomposition/OrthogonalRecursiveBisection.hpp"
+#include "Particle/ParticleAttrib.hpp"
+#include "Particle/ParticleBase.hpp"
+#include "Particle/ParticleSpatialLayout.hpp"
 
 #define str(x)  #x
 #define xstr(x) str(x)

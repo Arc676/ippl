@@ -10,9 +10,9 @@
 
 #include <Kokkos_MathematicalConstants.hpp>
 
-#include "FFT/FFT.h"
-#include "FieldLayout/FieldLayout.h"
-#include "Index/NDIndex.h"
+#include "FFT/FFT.hpp"
+#include "FieldLayout/FieldLayout.hpp"
+#include "Index/NDIndex.hpp"
 #include "Poisson.h"
 
 namespace ippl {

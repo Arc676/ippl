@@ -2,6 +2,11 @@
 
 #include <random>
 
+#include "Core/Fields.h"
+#include "Particle/ParticleAttrib.hpp"
+#include "Particle/ParticleBase.hpp"
+#include "Particle/ParticleSpatialLayout.hpp"
+
 template <class PLayout>
 struct Bunch : public ippl::ParticleBase<PLayout> {
     Bunch(PLayout& playout)

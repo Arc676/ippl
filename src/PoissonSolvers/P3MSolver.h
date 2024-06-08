@@ -17,8 +17,8 @@
 
 #include "Field/Field.h"
 
-#include "FFT/FFT.h"
-#include "FieldLayout/FieldLayout.h"
+#include "FFT/FFT.hpp"
+#include "FieldLayout/FieldLayout.hpp"
 #include "Poisson.h"
 
 namespace ippl {

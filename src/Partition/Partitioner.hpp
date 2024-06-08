@@ -3,6 +3,9 @@
 //   Partition a domain into subdomains.
 //
 
+#ifndef PARTITIONER_HPP
+#define PARTITIONER_HPP
+
 #include <algorithm>
 #include <vector>
 
@@ -126,3 +129,5 @@ namespace ippl {
         }
     }  // namespace detail
 }  // namespace ippl
+
+#endif

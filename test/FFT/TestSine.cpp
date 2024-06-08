@@ -3,9 +3,11 @@
 #include <array>
 #include <iostream>
 #include <random>
-#include <typeinfo>
 
 #include "Utility/ParameterList.h"
+
+#include "Core/Fields.h"
+#include "FFT/FFT.hpp"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

@@ -28,7 +28,11 @@
 
 #include "Communicate/Tags.h"
 #include "Communicate/Window.hpp"
+#include "ParticleLayout.hpp"
 #include "ParticleSpatialLayout.h"
+#include "Region/NDRegion.hpp"
+#include "Region/PRegion.hpp"
+#include "Region/RegionLayout.hpp"
 
 namespace ippl {
 

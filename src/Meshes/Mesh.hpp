@@ -6,6 +6,9 @@
 //   or restructured entirely).
 //
 
+#ifndef MESH_HPP
+#define MESH_HPP
+
 #include "Mesh.h"
 
 namespace ippl {
@@ -29,3 +32,5 @@ namespace ippl {
         return gridSizes_m[dim];
     }
 }  // namespace ippl
+
+#endif

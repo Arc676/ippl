@@ -10,6 +10,8 @@
 //
 //
 
+#include "Expression/IpplOperations.h"
+
 #include "P3MSolver.h"
 
 namespace ippl {

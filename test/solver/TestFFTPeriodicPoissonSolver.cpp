@@ -3,9 +3,15 @@
 #include <Kokkos_MathematicalConstants.hpp>
 #include <Kokkos_MathematicalFunctions.hpp>
 #include <iostream>
-#include <typeinfo>
 
-#include "PoissonSolvers/FFTPeriodicPoissonSolver.h"
+#include "Types/Vector.hpp"
+
+#include "Expression/IpplOperations.h"
+
+#include "Core/Fields.h"
+#include "Index/Index.hpp"
+#include "Meshes/UniformCartesian.hpp"
+#include "PoissonSolvers/FFTPeriodicPoissonSolver.hpp"
 
 int main(int argc, char* argv[]) {
     ippl::initialize(argc, argv);

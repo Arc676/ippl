@@ -11,6 +11,7 @@
 
 #include "Communicate/Tags.h"
 #include "FFTOpenPoissonSolver.h"
+#include "Field/FieldOperations.hpp"
 
 // Communication specific functions (pack and unpack).
 template <typename Tb, typename Tf>

@@ -27,10 +27,17 @@
 #include <Kokkos_MathematicalFunctions.hpp>
 #include <cstdlib>
 
+#include "Types/Vector.hpp"
+
 #include "Utility/IpplException.h"
 #include "Utility/IpplTimings.h"
 
-#include "PoissonSolvers/FFTOpenPoissonSolver.h"
+#include "Expression/IpplOperations.h"
+
+#include "Field/BareFieldOperations.hpp"
+#include "Index/Index.hpp"
+#include "Meshes/UniformCartesian.hpp"
+#include "PoissonSolvers/FFTOpenPoissonSolver.hpp"
 
 KOKKOS_INLINE_FUNCTION double gaussian(double x, double y, double z, double sigma = 0.05,
                                        double mu = 0.5) {

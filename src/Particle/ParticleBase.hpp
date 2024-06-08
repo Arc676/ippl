@@ -51,6 +51,8 @@
 
 #include "Ippl.h"
 
+#include "Utility/PAssert.h"
+
 #include "Communicate/Tags.h"
 #include "ParticleBase.h"
 

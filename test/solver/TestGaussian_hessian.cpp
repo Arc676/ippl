@@ -18,10 +18,18 @@
 #include <Kokkos_MathematicalConstants.hpp>
 #include <Kokkos_MathematicalFunctions.hpp>
 
+#include "Types/Vector.hpp"
+
 #include "Utility/IpplException.h"
 #include "Utility/IpplTimings.h"
 
-#include "PoissonSolvers/FFTOpenPoissonSolver.h"
+#include "Expression/IpplOperations.h"
+
+#include "Field/BareFieldOperations.hpp"
+#include "Index/Index.hpp"
+#include "Index/NDIndex.hpp"
+#include "Meshes/UniformCartesian.h"
+#include "PoissonSolvers/FFTOpenPoissonSolver.hpp"
 
 template <typename T>
 using Mesh_t = typename ippl::UniformCartesian<T, 3>;

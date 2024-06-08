@@ -2,9 +2,16 @@
 // Class UniformCartesian
 //   UniformCartesian class - represents uniform-spacing cartesian meshes.
 //
+
+#ifndef UNIFORM_CARTESIAN_HPP
+#define UNIFORM_CARTESIAN_HPP
+
+#include "Types/Vector.hpp"
+
 #include "Utility/PAssert.h"
 
 #include "Index/NDIndex.hpp"
+#include "Mesh.hpp"
 #include "UniformCartesian.h"
 
 namespace ippl {
@@ -76,3 +83,5 @@ namespace ippl {
     }
 
 }  // namespace ippl
+
+#endif

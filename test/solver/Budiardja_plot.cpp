@@ -13,7 +13,15 @@
 #include <Kokkos_MathematicalConstants.hpp>
 #include <Kokkos_MathematicalFunctions.hpp>
 
-#include "PoissonSolvers/FFTOpenPoissonSolver.h"
+#include "Types/Vector.hpp"
+
+#include "Expression/IpplOperations.h"
+
+#include "Field/BareFieldOperations.hpp"
+#include "Index/Index.hpp"
+#include "Index/NDIndex.hpp"
+#include "Meshes/UniformCartesian.h"
+#include "PoissonSolvers/FFTOpenPoissonSolver.hpp"
 
 KOKKOS_INLINE_FUNCTION double source(double x, double y, double z, double density = 1.0,
                                      double R = 1.0, double mu = 1.2) {

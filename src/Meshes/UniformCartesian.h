@@ -5,9 +5,9 @@
 #ifndef IPPL_UNIFORM_CARTESIAN_H
 #define IPPL_UNIFORM_CARTESIAN_H
 
-#include "Index/NDIndex.h"
+#include "Index/NDIndex.hpp"
 #include "Meshes/Centering.h"
-#include "Meshes/Mesh.h"
+#include "Meshes/Mesh.hpp"
 
 namespace ippl {
 

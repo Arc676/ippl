@@ -29,6 +29,9 @@
 //   j/I we don't do because it is not a uniform stride, and we don't
 //   allow strides that are fractions.
 //
+#ifndef INDEX_HPP
+#define INDEX_HPP
+
 #include "Utility/PAssert.h"
 
 #include "Index.h"
@@ -334,3 +337,5 @@ namespace ippl {
         return r;
     }
 }  // namespace ippl
+
+#endif

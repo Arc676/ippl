@@ -9,13 +9,14 @@
 #include <Kokkos_MathematicalConstants.hpp>
 #include <Kokkos_MathematicalFunctions.hpp>
 #include <cstdlib>
-#include <iostream>
 #include <string>
-#include <typeinfo>
 
 #include "Utility/Inform.h"
 #include "Utility/IpplTimings.h"
+#include "Utility/ParameterList.h"
 
+#include "Core/Fields.h"
+#include "Field/BareFieldOperations.hpp"
 #include "PoissonSolvers/PoissonCG.h"
 
 int main(int argc, char* argv[]) {

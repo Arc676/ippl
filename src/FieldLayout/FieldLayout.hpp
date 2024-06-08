@@ -5,6 +5,9 @@
 //   partitioning. The user may request that a particular dimension not be
 //   partitioned by flagging that axis as 'SERIAL' (instead of 'PARALLEL').
 //
+#ifndef FIELD_LAYOUT_HPP
+#define FIELD_LAYOUT_HPP
+
 #include <cstdlib>
 
 #include "Utility/IpplException.h"
@@ -333,3 +336,5 @@ namespace ippl {
     }
 
 }  // namespace ippl
+
+#endif
